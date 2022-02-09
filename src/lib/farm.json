@@ -1,0 +1,42 @@
+{
+  "token": [
+    {
+      "name": "Teneo",
+      "symbol": "TEN",
+      "contract": "0x423BfdAfB5283Bbe8812d19C6DE64F4c7cE806c1",
+      "logo": "../teneo.png"
+    },
+    {
+      "name": "Teneo DAI",
+      "symbol": "testDAI",
+      "contract": "0x9346cF25c7cC156D194Af7F55a413978a2B0A16d",
+      "logo": "../dai.png"
+    },
+    {
+      "name": "Teneo BTC",
+      "symbol": "testBTC",
+      "contract": "0x7A5bE51F35Fc213c38DAA3aF02E44fAd4E4A5448",
+      "logo": "../btc.png"
+    }
+  ],
+  "AMMs": [
+    {
+      "name": "tenBTC",
+      "contract": "0xA172fBC6d728DA093B328a71D15809738f940b0e"
+    },
+    {
+      "name": "tenDAI",
+      "contract": "0x0932F09C940F5b92BbbD954d3ABc5fcA01A7a9A8"
+    },
+    {
+      "name": "tenBNB",
+      "contract": "0x1a0a61D0c5B9683e84cA30d29013ba8C171295E1"
+    }
+  ],
+  "staking": {
+    "contract": "0x9Ae3586F3FfFad16dD17640B3c9A799130920732",
+    "pools": [
+      0
+    ]
+  }
+}

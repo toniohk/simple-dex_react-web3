@@ -4,6 +4,8 @@ import Loader from './common/Loader'
 import './main.css'
 
 const Swap = lazy(() => import('./swap/swap'))
+const Farm = lazy(() => import('./farm/farm'))
+const Compound = lazy(() => import('./compound/compound'))
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
         <Suspense fallback={<Loader />}>
           <Switch>
             <Route path="/swap" component={Swap} />
+            <Route path="/farm" component={Farm} />
+            <Route path="/compound" component={Compound} />
           </Switch>
         </Suspense>
       </BrowserRouter>
