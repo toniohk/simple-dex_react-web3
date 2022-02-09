@@ -1,0 +1,49 @@
+.content {
+  margin-top: 20px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  padding: 0px 8px;
+  margin-top: 64px;
+  display: flex;
+  flex-direction: column;
+  max-width: 516px;
+
+  > * {
+    margin-bottom: 8px;
+  }
+}
+
+.box {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 30px #0000000f;
+  border-radius: 12px;
+  padding: 19px;
+}
+
+.btn_inactive {
+  border-color: #00519333;
+  background-color: #00519333;
+  pointer-events: none;
+  user-select: none;
+}
+
+.btn_success {
+  border-color: #43BF49;
+  background-color: #43BF49;
+  pointer-events: none;
+  user-select: none;
+}
+
+.inactive {  
+  pointer-events: none;
+  user-select: none;
+  > div {
+    opacity: 0.6;
+  }
+}
