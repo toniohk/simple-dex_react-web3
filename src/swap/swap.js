@@ -125,21 +125,21 @@ export default function Swap(props) {
             <h2>Swap your tokens</h2>
             <div className={styles.container}>
                 {/* For development */}
-                {/* <div style={{ fontSize: 12 }}>Swap: {JSON.stringify(swap.to)}</div> */}
-                {/* <div style={{ fontSize: 12 }}>{JSON.stringify(swap)}</div> */}
+                <div style={{ fontSize: 12 }}>Swap: {JSON.stringify(swap.to)}</div>
+                <div style={{ fontSize: 12 }}>{JSON.stringify(swap)}</div>
                 {/* For development End*/}
 
                 <div className={styles.box + " " + (isProcessing && styles.inactive)}>
                     <TokenSwap swap={swap} onSwapChanged={handleSwapChanged} />
                 </div>
 
-                {/* <InfoBox label="Price">
+                <InfoBox label="Price">
                     {`${price} ${swap.from.name.toUpperCase()} per ${swap.to.name.toUpperCase()}`}
                 </InfoBox>
 
                 <InfoBox label="Price leverage">
                     {`< ${leverage} %`}
-                </InfoBox> */}
+                </InfoBox>
 
                 <InfoBox label="Fees">
                     {fee} %
